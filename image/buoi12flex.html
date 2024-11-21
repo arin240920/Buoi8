@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+        }
+        .contain .class{
+            border: solid blueviolet 2px;
+            width: 200px;
+            height: 200px;
+        }
+        .contain{
+            display: flex; /*dùng để chia nó ra thành ô ngang*/
+            height: 500PX;
+            border: 1PX SOLID blue;
+            justify-content: space-around;
+            justify-content: flex-end;
+            justify-content: flex-start;
+            justify-content: center;
+            justify-content: space-between;/*theo thứ tự:
+            dàn đều KHÔNG SÁT LỀ, qua lề phải, qua lề trái, 
+            căn giữa, canh giữa SÁT LỀ*/
+             align-items: flex-end;
+             align-items: flex-start;
+             align-items: center;
+
+        }
+
+       
+
+        
+    </style>
+</head>
+<body>
+    <div class="contain">
+      <div class="class">Box</div>
+      <div class="class">Box</div>
+      <div class="class">Box</div>
+      <div class="class">Box</div>
+    </div>
+
+   
+
+
+    
+</body>
+</html>
